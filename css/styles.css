@@ -1,0 +1,93 @@
+.todobox {
+    margin: 5% auto;
+    border: 0px solid transparent;
+    box-shadow: 0px 0.5px 2px 1px rgba(0, 0, 0, 0.537);
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    background: rgb(29, 125, 194);
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    padding: 10px;
+    color: white;
+}
+
+.todoinput {
+    margin: 0 auto;
+    width: 50%;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    outline: none;
+}
+
+.todoinput:focus {
+    background: rgba(151, 18, 213, 0.544);
+    color: white;
+}
+
+.todobutton {
+    outline: none;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 25%;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.todobutton:hover {
+    color: rgba(17, 90, 235, 0.796);
+}
+
+.todobutton:active {
+    color: rgba(0, 0, 255, 0.238);
+}
+
+.todolist {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 30%;
+    margin: 0 auto;
+    background: rgb(23, 100, 155);
+    border-radius: 5px;
+    box-shadow: 0px 0.5px 2px 1px rgba(0, 0, 0, 0.537);
+    padding: 10px;
+    height: 50%;
+    overflow: auto;
+}
+
+hr {
+    color: white;
+    background: white;
+    width: 100%;
+}
+
+.tarea {
+    min-width: 50%;
+    background: white;
+    border: 0px solid transparent;
+    margin: 2px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    user-select: none;
+    padding: 5px;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0;
+    text-overflow: ellipsis;
+    max-lines: 1;
+}
